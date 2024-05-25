@@ -1,5 +1,5 @@
 import { Stack } from "@mui/material";
-import { ReactComponent as logo } from "../components/images/logo.svg";
+import logo from "../components/images/logo.svg";
 import React from "react";
 
 const NavBar = () => {

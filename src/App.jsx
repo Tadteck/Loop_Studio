@@ -11,7 +11,6 @@ import curosity from "./components/images/mobile/image-curiosity.jpg";
 import fisheye from "./components/images/mobile/image-fisheye.jpg";
 import { Button } from "@mui/base";
 
-
 function App() {
   return (
     <>
@@ -179,7 +178,6 @@ function App() {
             <Typography sx={{ color: "hsl(0, 0%, 100%)", mb: 3 }}>
               Support
             </Typography>
-            
           </Container>
         </Stack>
       </div>
