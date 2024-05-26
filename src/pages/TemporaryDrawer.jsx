@@ -20,9 +20,9 @@ export default function TemporaryDrawer() {
 
   const DrawerList = (
     <Toolbar
-      sx={{ backgroundColor: "hsl(0, 0%, 0%)", color: "hsl(0, 0%, 100%)", width:"100%", height:"100%"}}
+      sx={{ backgroundColor: "hsl(0, 0%, 0%)", color: "hsl(0, 0%, 100%)", width:"100%", height:"100%", }}
     >
-      <Box sx={{width:"100%"}} role="presentation" onClick={toggleDrawer(false)}>
+      <Box role="presentation" onClick={toggleDrawer(false)}>
         <List sx={{ mb: "2rem", listStyle: "none" }}>
           {["LoopStudios"].map((text, index) => (
             <ListItem key={text} disablePadding>
