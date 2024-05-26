@@ -8,8 +8,9 @@ const NavBar = () => {
           background: "#333",
           display: "flex",
           justifyContent: "center", 
-          padding:"20px",
-          gap:"3rem"
+          alignItems:"center",
+          padding:"1rem",
+          gap:"7rem"
           
         }}
       >
