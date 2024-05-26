@@ -10,6 +10,7 @@ import pocket from "./components/images/mobile/image-pocket-borealis.jpg";
 import curosity from "./components/images/mobile/image-curiosity.jpg";
 import fisheye from "./components/images/mobile/image-fisheye.jpg";
 import { Button } from "@mui/base";
+import NavBar from "./pages/NavBar";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <div>
         <Stack>
           <Grid>
+            <NavBar />
             <img
               src={hero}
               alt="hero"
