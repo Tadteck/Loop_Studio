@@ -5,6 +5,7 @@ const NavBar = () => {
     <>
       <div
         style={{
+          xs:"5rem",
           background: "#333",
           display: "flex",
           justifyContent: "center", 
