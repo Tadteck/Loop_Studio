@@ -168,17 +168,28 @@ function App() {
             </Typography>
 
             <Typography sx={{ color: "hsl(0, 0%, 100%)", mb: 3 }}>
+<<<<<<< HEAD
               <a href="/Careers">Careers</a>
+=======
+            <a href="/Careers">Careers</a>
+>>>>>>> dev
             </Typography>
             <Typography sx={{ color: "hsl(0, 0%, 100%)", mb: 3 }}>
               {" "}
               <a href="/Events">Events</a>
             </Typography>
             <Typography sx={{ color: "hsl(0, 0%, 100%)", mb: 3 }}>
+<<<<<<< HEAD
               <a href="/Events">Events</a>
             </Typography>
             <Typography sx={{ color: "hsl(0, 0%, 100%)", mb: 3 }}>
               <a href="/Products">Products</a>
+=======
+            <a href="/Products">Products</a>
+            </Typography>
+            <Typography sx={{ color: "hsl(0, 0%, 100%)", mb: 3 }}>
+            <a href="/Support">Support</a>
+>>>>>>> dev
             </Typography>
           </Container>
         </Stack>
