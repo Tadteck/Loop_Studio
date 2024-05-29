@@ -16,7 +16,7 @@ function App() {
   return (
     <>
       <div>
-        <Stack>
+        <Stack sx={{ xs: "0px", sm: "600px", md: "960px" }}>
           <Grid>
             <NavBar />
             <img
@@ -168,17 +168,17 @@ function App() {
             </Typography>
 
             <Typography sx={{ color: "hsl(0, 0%, 100%)", mb: 3 }}>
-            <a href="/Careers">Careers</a>
+              <a href="/Careers">Careers</a>
             </Typography>
             <Typography sx={{ color: "hsl(0, 0%, 100%)", mb: 3 }}>
               {" "}
               <a href="/Events">Events</a>
             </Typography>
             <Typography sx={{ color: "hsl(0, 0%, 100%)", mb: 3 }}>
-            <a href="/Products">Products</a>
+              <a href="/Products">Products</a>
             </Typography>
             <Typography sx={{ color: "hsl(0, 0%, 100%)", mb: 3 }}>
-            <a href="/Support">Support</a>
+              <a href="/Support">Support</a>
             </Typography>
           </Container>
         </Stack>

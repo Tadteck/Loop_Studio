@@ -5,6 +5,10 @@ const NavBar = () => {
     <>
       <div
         style={{
+          xs:"0px",
+          sm:"600px",
+          md:"960px",
+          
           background: "#333",
           display: "flex",
           justifyContent: "center", 
