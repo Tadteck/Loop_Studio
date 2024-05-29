@@ -5,7 +5,14 @@ const NavBar = () => {
     <>
       <div
         style={{
+<<<<<<< HEAD
           xs:"5rem",
+=======
+          xs:"0px",
+          sm:"600px",
+          md:"960px",
+          
+>>>>>>> dev
           background: "#333",
           display: "flex",
           justifyContent: "center", 
